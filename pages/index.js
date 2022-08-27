@@ -4,8 +4,8 @@ export default function Home() {
       <nav className={"p-3 bg-amber-100"}>
         <div className="container mx-auto flex flex-row justify-between">
           <span className={"p-3"}>Twitter</span>
-          <span className={"p-3"}>Github</span>
-          <span className={"p-3 text-white bg-red-800 hover:bg-red-900 px-5 rounded-full cursor-pointer"}>Buy</span>
+          <a href="https://github.com/pug-avax" className={"p-3 text-white bg-red-800 hover:bg-red-900 px-5 rounded-full cursor-pointer"}>Github</a>
+          <a href="https://info.pangolin.exchange/#/token/0x49a143d7a188356bae286273b2244f763deb080e" className={"p-3 text-white bg-red-800 hover:bg-red-900 px-5 rounded-full cursor-pointer"}>Buy</a>
           <span className={"p-3"}>Discord</span>
           <span className={"p-3"}>Docs</span>
         </div>
