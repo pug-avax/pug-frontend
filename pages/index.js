@@ -18,7 +18,7 @@ export default function Home() {
             Github
           </a>
           <a
-            href="https://app.pangolin.exchange/#/swap?inputCurrency=0x49a143d7a188356bae286273b2244f763deb080e"
+            href="https://traderjoexyz.com/trade?inputCurrency=0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664&outputCurrency=0x49a143d7a188356bae286273b2244f763deb080e#/"
             className={
               'p-3 text-white bg-red-800 hover:bg-red-900 px-5 rounded-full cursor-pointer'
             }
