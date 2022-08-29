@@ -76,6 +76,12 @@ export default function Home() {
               />
             </a>
           </div>
+          <h2 className={'text-center font-extrabold text-6xl m-5'}>
+            Listings
+          </h2>
+          <div className="flex flex-row justify-center p-3">
+            <a href="https://nomics.com/assets/pug6-pug"><img src="https://p.nomics.com/wp-content/uploads/2018/01/cropped-Nomics_Logomark_Horz-Purple-Black_1200x415.png" alt="" style={{height: 32}}/></a>
+          </div>
         </div>
       </main>
     </>
