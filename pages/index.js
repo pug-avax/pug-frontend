@@ -1,6 +1,11 @@
+import Head from "next/head";
+
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>Pug - AVAX PUG Token</title>
+      </Head>
       <nav className={'p-3 bg-amber-100'}>
         <div className="container mx-auto flex flex-row justify-between">
           <span className={'p-3'}>Twitter</span>
