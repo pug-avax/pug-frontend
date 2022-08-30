@@ -14,7 +14,7 @@ export default function Home() {
 			</Head>
 			<nav className={'p-3 bg-amber-100'}>
 				<div className="container mx-auto flex flex-row justify-between">
-					<span className={'p-3'}>Twitter</span>
+					<a href={"//twitter.com/avaxpug"} className={'p-3 text-white bg-red-800 hover:bg-red-900 px-5 rounded-full cursor-pointer'}>Twitter</a>
 					<a
 						href="https://github.com/pug-avax"
 						className={
@@ -26,7 +26,7 @@ export default function Home() {
 					<a
 						href="https://traderjoexyz.com/trade?inputCurrency=0xA7D7079b0FEaD91F3e65f86E8915Cb59c1a4C664&outputCurrency=0x49a143d7a188356bae286273b2244f763deb080e#/"
 						className={
-							'p-3 text-white bg-red-800 hover:bg-red-900 px-5 rounded-full cursor-pointer'
+							'p-3 text-white bg-red-800 hover:bg-red-900 px-5 rounded-full cursor-pointer font-bold'
 						}
 					>
 						Buy
@@ -34,7 +34,7 @@ export default function Home() {
 					<span className={'p-3 text-white bg-red-800 hover:bg-red-900 px-5 rounded-full cursor-pointer'}>
             <a href="https://discord.gg/mfjRz2qd">Discord</a>
           </span>
-					<span className={'p-3'}>Docs</span>
+					<a href={"#"} className={'p-3 text-white bg-red-800 hover:bg-red-900 px-5 rounded-full cursor-pointer'}>Docs</a>
 				</div>
 			</nav>
 			<main className={'flex w-full'}>
